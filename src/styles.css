@@ -1,0 +1,26 @@
+body {
+  font-family: sans-serif;
+}
+
+ul {
+  color: red;
+}
+
+.print {
+  display: none;
+}
+
+@media only print {
+  div {
+    display: none;
+  }
+
+  .print {
+    display: block;
+  }
+
+  ul {
+    color: black;
+    font-weight: bold;
+  }
+}
